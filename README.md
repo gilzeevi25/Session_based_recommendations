@@ -27,6 +27,26 @@ use [YOOCHOOSE_preprocessing.ipynb](https://github.com/gilzeevi25/Session_based_
 2. Creating the thinner dataset we used:
   - Run the rest of cells, starting from cell #13 in order to create 4.5 train set, where 1 day out of it converted into test and validtion<br> (each consists one day)
 ### Training and plotting results
+We've decided to create a notebook instead of the standard main.py in order to visualize the affect of different GRU's and present evaluations.
+the structure is as follows:
+```
+├── YOOCHOOSE_preprocessing.ipynb
+├── Session_based_recommendations.ipynb
+│   ├── data
+│   │    ├── test_samp.txt
+│   │    ├── train_samp_tr.txt
+│   │    ├── train_samp_valid.txt 
+│   ├── lib
+│   │    ├── dataset.py
+│   │    ├── evaluation.py
+│   │    ├── lossfunction.py 
+│   │    ├── metric.py
+│   │    ├── model.py
+│   │    ├── optimizer.py
+│   │    ├── trainer.py
+```
+- In order to recreate our results, devise a thinned dataset as instructed above, and then click [Session_based_recommendations.ipynb](https://github.com/gilzeevi25/Session_based_recommendations/blob/main/Session_based_recommendations.ipynb)
+- the main notebook Session_based_recommendations.ipynb imports  modules from `lib\` which consists GRU components
 - Please run cell by cell, unless you have strong CUDA resources.
 - In order to train BPR-MF, we used 100 iterations (~ 1 hr, no multiprocessing)
 - Stop before `Important note!` markdown as the following line wil exhaust strong GPU resources and will take many hours. We've splitted this cell into fragments and used several resources as google colab, Kaggle & local GPU.
