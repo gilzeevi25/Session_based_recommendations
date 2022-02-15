@@ -50,4 +50,5 @@ the structure is as follows:
 - Please run cell by cell, unless you have strong CUDA resources.
 - In order to train BPR-MF, we used 100 iterations (~ 1 hr, no multiprocessing)
 - Stop before `Important note!` markdown as the following line wil exhaust strong GPU resources and will take many hours. We've splitted this cell into fragments and used several resources as google colab, Kaggle & local GPU.
-- The hyperparameters search cell can be skipped as we provided for each inspected model the top-5 performed model out of the hyper-parameters. Hence, after skipping the big hyperparameter tuning cell, the rest of the notebook can be executed with no other precautions. 
+- The hyperparameters search cell can be skipped as we provided for each inspected model the top-5 performed model out of the hyper-parameters. Hence, after skipping the big hyperparameter tuning cell, the rest of the notebook can be executed with no other precautions.<br><Br>
+![Final Results:](finalresults.JPG)
