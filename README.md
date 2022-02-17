@@ -6,7 +6,7 @@ We supplied some graphical comparisons for out evaluated metrics: `Training time
 We can say the least that each GRU architecture has shown magnificent improvement in `Recall@20`, and the rest you'll have to click [Session_based_recommendations.ipynb](https://github.com/gilzeevi25/Session_based_recommendations/blob/main/Session_based_recommendations.ipynb) and see for yourself
 
 
-**this work has been made as part of a final project in a recommendation system course in Reichman University.
+**this work has been made as part of a final project in a recommendation system course in Reichman University.<br>
 the course was led by Dr Asi Messica and Sahar Millis.<br>
 hence, the following materials were used solely for academical purposes, with no commercial intentions whatsoever.**
 ## References and copyrights
