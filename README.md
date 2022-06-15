@@ -1,4 +1,5 @@
 # Session based recommendations
+![visitors](https://visitor-badge.glitch.me/badge?page_id=gilzeevi25.Session_based_recommendations.issue.1) <br/>
 In this repo we tackle the subject of Session based recommendations which relies on implicit feedbacks.
 <br>We followed the paper [Session based recommendations wirh recurrent neural network](https://arxiv.org/pdf/1511.06939),<br>  recreated thinner dataset and the baselines presented in the paper,
 and then engaged different GRU's to tackle the statement presented in paper about which GRU architecture yielded the highest evaluation scores.<br>
